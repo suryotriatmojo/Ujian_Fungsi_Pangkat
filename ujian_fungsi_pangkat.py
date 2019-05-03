@@ -1,6 +1,5 @@
 # membuat function pangkat
 def pangkat(a,b):
-    a = int(a)
     kali = int(a)
     i = 1
     while i < int(b):
