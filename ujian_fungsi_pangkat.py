@@ -1,6 +1,7 @@
 # membuat function pangkat
 def pangkat(a,b):
-    kali = int(a)
+    a = int(a)
+    kali = a
     i = 1
     while i < int(b):
         kali = kali * a
@@ -12,4 +13,4 @@ print(pangkat(3,3))
 print(pangkat(10,5))
 
 # just in case menggunakan input untuk parameter a & b
-# print(pangkat(input('Masukkan angka pertama: '), input('Masukkan angka kedua: ')))
+print(pangkat(input('Masukkan angka pertama: '), input('Masukkan angka kedua: ')))
